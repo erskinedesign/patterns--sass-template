@@ -1,0 +1,21 @@
+///////////////////////
+// Styles for Module //
+///////////////////////
+
+// - BEM naming http://bem.info/method/
+
+@import '../../common/config';      // global config
+@import 'includes/module-defaults'; // default vars for this module
+@import 'includes/module-utils';    // mixins and fns for this module
+
+.module {
+    //block
+}
+
+.module__element {
+    // element
+}
+
+.module--modifier {
+    // modifier
+}

@@ -1,2 +1,4 @@
-patterns--sass-template
-=======================
+Example SASS pattern template
+=============================
+
+
