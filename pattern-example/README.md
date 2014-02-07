@@ -1,0 +1,2 @@
+Example SASS pattern template
+=============================

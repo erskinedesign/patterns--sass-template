@@ -19,4 +19,33 @@
 //  formatted block that will be output at the top of the styleguide entry 
 //  for this module.
 //  
+//  
+
+
+
+
+
+/**
+ * 1. Import scaffolding and default variables.
+ */
+@import 'includes/module-scaffold'; 
+
+
+
+
+/**
+ * 2. Import styles.
+ */
 @import 'styles'; // output styling for this
+
+
+
+
+/**
+ * 3. Import modifiers.
+ */
+@if ($module-option-enabled == true ) {
+    @import 'includes/modifiers/module-color';
+}
+
+
