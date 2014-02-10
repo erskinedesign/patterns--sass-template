@@ -1,2 +1,2 @@
-Example SASS pattern template
-=============================
+MODULE README
+======================

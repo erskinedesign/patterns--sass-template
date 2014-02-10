@@ -1,13 +1,28 @@
-/* ==========================================================================
-   MODULE SCAFFOLD
-   ========================================================================== */
-/**
- * Import scaffolding for styling this module - do not import anything that outputs CSS!
- *
- * But what does scaffolding do?
- */
+// ==========================================================================
+// MODULE SCAFFOLDING
+// ========================================================================== 
+// 
+// Import scaffolding code for styling this module.
+// 
+// This is code that does not generate output eg. mixins and functions
+// 
 
 
-@import '../../common/config';      // global config
-@import 'includes/module-defaults'; // default vars for this module
-@import 'includes/module-utils';    // mixins and fns for this module
+// IMPORT GLOBAL CONFIG
+// Imports global variables and mixins/functions
+
+@import '../../globals/config';
+
+
+
+// MODULE DEFAULTS
+// Imports all of the module’s default variables
+
+@import 'includes/module-default-vars';
+
+
+
+// MODULE UTILITIES
+// Imports functions and mixins for this module.
+
+@import 'includes/module-utilities';    
