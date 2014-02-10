@@ -1,6 +1,25 @@
 Example SASS pattern template
 =============================
 
+This is an example of our module pattern in Sass.
+
+/module
+|-- module.scss
+|-- _style.scss
+|
+|-- /docs
+|   |-- module-data.yml
+|   |-- module-data.handlebars
+|
+|-- /includes
+|   |-- _module-default-vars.scss
+|   |-- _module-scaffold.scss
+|   |-- _module-utilities.scss
+|
+|--/modifiers
+|  |-- _module-color.scss
+|  |-- _module-size.scss
+
 
 
 ### Exporting a CSS file.
@@ -39,4 +58,4 @@ In `/docs` there is data about the module and example markup in a [Handlebars](h
 
 ### Comments
 
-We [a fork](https://github.com/erskinedesign/Idiomatic-SCSS-Comments-Snippets) of the Idiomatic CSS comment syntax.
+We use [a fork](https://github.com/erskinedesign/Idiomatic-SCSS-Comments-Snippets) of the Idiomatic CSS comment syntax in order to keep files consistently organised and documented.
