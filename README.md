@@ -16,9 +16,9 @@ This is an example of our module pattern in Sass.
     |   |-- _module-scaffold.scss
     |   |-- _module-utilities.scss
     |
-    |--/modifiers
-    |  |-- _module-color.scss
-    |  |-- _module-size.scss
+    |-- /modifiers
+    |   |-- _module-color.scss
+    |   |-- _module-size.scss
 
 
 
