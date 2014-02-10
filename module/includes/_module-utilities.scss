@@ -1,0 +1,37 @@
+// ==========================================================================
+//  MODULE UTILITIES
+// ==========================================================================
+// 
+// These are the mixins and functions available to this module.
+// 
+// 
+// CONTENTS
+// 1. Module width calculator mixins.
+// 
+
+
+
+
+
+
+
+
+// MODULE WIDTH CALCULATOR
+// ==========================================================================
+
+@function module-calculation-function($some-number, $another-number){
+  @return $some-number + $another-number
+}
+
+
+@mixin module-mixin(){
+    width: module-calculation-function(1, 2) * 1%;
+}
+
+// PRIVATE
+// ==========================================================================
+
+
+@mixin _module-private-mixin(){
+    width: module-calculation-function(1, 2) * 1%;
+}
