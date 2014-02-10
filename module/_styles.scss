@@ -1,0 +1,43 @@
+// ==========================================================================
+// STYLES FOR THE MODULE
+// ========================================================================== 
+//
+// These styles are imported into module.scss.
+// 
+// 
+// CONTENTS
+// 1. Default variables, functions and mixins.
+// 2. Module styles.
+// 3. Import modifiers.
+
+
+
+
+// DEFAULT VARIABLES AND OPTIONS FOR THIS MODULE
+// ==========================================================================
+// Import all of the scaffolding includes that don’t generate styles
+
+@import 'includes/module-scaffold'; 
+
+
+
+// MODULE STYLES
+// ==========================================================================
+
+.module {
+}
+
+
+.module__element {
+}
+
+
+
+
+
+// IMPORT MODULE MODIFIERS
+// ==========================================================================
+@if ($option) {
+	@import 'modifiers/module-color'
+	@import 'modifiers/module-size'
+}
